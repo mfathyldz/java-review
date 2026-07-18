@@ -1,12 +1,12 @@
 package practices;
 
-public class Books {
+public class Book {
 
     private String title;
     private String author;
     private double price;
 
-    public Books(String title, String author, double price) {
+    public Book(String title, String author, double price) {
         setTitle(title);
         setAuthor(author);
         setPrice(price);
