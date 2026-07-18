@@ -16,6 +16,9 @@ public class Main {
         System.out.println(book2);
         System.out.println(book3);
 
+        //book3.setPrice(-28.5);
+
+
         ArrayList<Books> books = new ArrayList<>();
         books.add(book1);
         books.add(book2);
@@ -23,6 +26,12 @@ public class Main {
         books.add(new Books("Java", "Kuzzat Altay", 25.86));
 
         System.out.println(books);
+
+        System.out.println("-------------------------------------------------");
+
+        for (Books eachBook : books) {
+            System.out.println(eachBook.getTitle() + " : $" + eachBook.getPrice());
+        }
 
     }
 
